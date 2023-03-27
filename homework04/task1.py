@@ -21,7 +21,7 @@ def get_pivot(array, start, stop):
     return curr_pos
 
 
-arr = [randint(1, 10000) for _ in range(1000)]
+arr = [randint(1, 10000) for _ in range(50)]
 QSort(arr, 0, len(arr)-1)
 print(arr)
 
